@@ -5,3 +5,7 @@ header{
     padding: 10px;
     height: auto;
 }
+
+body{
+    background-color: lightgrey;
+}
