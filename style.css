@@ -1,15 +1,64 @@
-header{
-    background-color: darkcyan;
+header {
+    background-color: #1976d2;
     color: white;
+    padding: 1rem;
     text-align: center;
-    padding: 10px;
-    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-
-body{
+body {
     background-color: lightgrey;
+    margin: 0;
+    min-height: 100vh;
 }
 
-#card{
-    
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    gap: 2rem;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    min-width: 300px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#registration {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#registration input {
+    width: 90%;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+}
+
+#registration button {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    cursor: pointer;
+}
+
+#registration button:hover {
+    background: #1565c0;
+}
+
+#display {
+    text-align: center;
 }

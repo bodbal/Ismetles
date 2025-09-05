@@ -7,16 +7,23 @@
     <title>Ismétlés</title>
 </head>
 <body>
-    <div id="registration">
-        Név: <input type="text"id="name"> <br>
-        Település <input type="text" id="settlement"> <br>
-        Irányítószám: <input type="number" id="number"> <br>
-        Közterület: <input type="text" id="region"> <br>
-        Házszám: <input type="text" id="housenumber"> <br>
-        <button type="submit" onclick="Add()">Add</button>
-        <button type="submit" onclick="Display()">Display</button>
-    </div>
-    <div id="display">Nincs adat (NA)</div>
+    <header>
+        <h1>Adatok</h1>
+    </header>
+   <div class="center-container">
+        <div class="card">
+            <div id="registration">
+                Név: <input type="text"id="name"> <br>
+                Település <input type="text" id="settlement"> <br>
+                Irányítószám: <input type="number" id="number"> <br>
+                Közterület: <input type="text" id="region"> <br>
+                Házszám: <input type="text" id="housenumber"> <br>
+                <button type="submit" onclick="Add()">Add</button>
+                <button type="submit" onclick="Display()">Display</button>
+            </div>
+        </div>
+        <div id="display" class="card">Nincs adat (NA)</div>
+   </div>
 
     <script src="backendjs.js"></script>
 
