@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--css + js link-->
+    <link rel="stylesheet" href="style.css">
     <title>Ismétlés</title>
 </head>
 <body>
     <div id="registration">
-        Név: <input type="text" name="" id=""> <br>
-        Település <input type="text" name="" id=""> <br>
-        Irányítószám: <input type="number" name="" id=""> <br>
-        Közterület: <input type="text" name="" id=""> <br>
-        Házszám: <input type="text" name="" id=""> <br>
-        <button type="submit">Submit</button>
+        Név: <input type="text"id="name"> <br>
+        Település <input type="text" id="settlement"> <br>
+        Irányítószám: <input type="number" id="number"> <br>
+        Közterület: <input type="text" id="region"> <br>
+        Házszám: <input type="text" id="housenumber"> <br>
+        <button type="submit" onclick="Add()">Add</button>
+        <button type="submit" onclick="Display()">Display</button>
     </div>
-    <div id="UserCard">
-        <!-- Itt jelennek meg a felhasználók adatai -->
-    </div>
+    <div id="display">Nincs adat (NA)</div>
+
+    <script src="backendjs.js"></script>
 
 </body>
 </html>
